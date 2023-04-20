@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,50 +10,114 @@
     <link rel="stylesheet" href="simple-grid.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--NAVBAR-->
-    <div class="topnav">
-        <a class="active link" href="#home">Home</a>
-        <a class="link" href="#news">News</a>
-        <a class="link" href="#contact">Contact</a>
-        <a class="link" href="#about">About</a>
-      </div>
+    <div class="topnav" id="home">
+        <a class="active link" href="#testimonials">Testimonials</a>
+        <a class="link" href="#courses">Courses</a>
+        <a class="link" href="#intro">Intro</a>
+    </div>
     <!--//NAVBAR-->
 
     <!--INTRO-SECTION-->
-    <div class="full-height">
-    <h1>Hello, Prospective Imizamo Youth Programme Participant</h1>
-    <p>Welcome to the local bootcamp braught to you by Imizamo Youth Programme</p>
+    <div class="full-height" id="intro">
+        <h1>Hello, Prospective Imizamo Youth Programme Participant</h1>
+        <p>Welcome to the local bootcamp braught to you by Imizamo Youth Programme</p>
     </div>
     <!--//INTRO-SECTION-->
 
     <!--COURSE-SECTION-->
-    <section class="full-height section1">
-    <div class="row">
-        <div class="courseCards col-4">
-            <h5>Html</h5>
-            <p class="text-brand">Beginer</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla dignissimos fugit sequi delectus molestias alias!</p>
+    <section class="full-height section1" id="courses">
+        <h2>Courses</h2>
+        <div class="row courses">
+            <div class="courseCards col-4">
+                <h5>Html</h5>
+                <p class="text-brand">Beginer Friendly</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla
+                    dignissimos fugit sequi delectus molestias alias!</p>
+                <button>More Details</button>
+            </div>
+            <div class="courseCards col-4">
+                <h5>CSS</h5>
+                <p class="text-brand">Beginer Friendly</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla
+                    dignissimos fugit sequi delectus molestias alias!</p>
+                <button>More Details</button>
+            </div>
+            <div class="courseCards col-4">
+                <h5>JavaScript</h5>
+                <p class="text-brand">Beginer Friendly</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla
+                    dignissimos fugit sequi delectus molestias alias!</p>
+                <button>More Details</button>
+            </div>
         </div>
-        <div class="courseCards col-4">
-            <h5>Html</h5>
-            <p class="text-brand">Beginer</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla dignissimos fugit sequi delectus molestias alias!</p>
+        <div class="row courses2">
+            <div class="courseCards col-4">
+                <h5>Python</h5>
+                <p class="text-brand">Beginer Friendly</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla
+                    dignissimos fugit sequi delectus molestias alias!</p>
+                <button>More Details</button>
+            </div>
+            <div class="courseCards col-4">
+                <h5>Java</h5>
+                <p class="text-brand">Beginer Friendly</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla
+                    dignissimos fugit sequi delectus molestias alias!</p>
+                <button>More Details</button>
+            </div>
+            <div class="courseCards col-4">
+                <h5>C#(C-Sharp)</h5>
+                <p class="text-brand">Beginer Friendly</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla
+                    dignissimos fugit sequi delectus molestias alias!</p>
+                <button>More Details</button>
+            </div>
         </div>
-        <div class="courseCards col-4">
-            <h5>Html</h5>
-            <p class="text-brand">Beginer</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla dignissimos fugit sequi delectus molestias alias!</p>
-        </div>
-    </div>
     </section>
     <!--//COURSE-SECTION-->
 
     <!--TESTIMONIAL-SECTION-->
+    <section class="full-height" id="testimonials">
+        <h2>Tesimonials</h2>
+        <div class="testimonials">
+        <div class="courseCards ">
+            <img src="pictures/jackRyan.webp" alt="">
+            <h5>John Doe</h5>
+            <p class="text-brand">JavaScript</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla
+                dignissimos
+                fugit sequi delectus molestias alias!</p>
+        </div>
+        <div class="courseCards ">
+            <img src="pictures/jonDoe.webp" alt="">
+            <h5>Jack Ryan</h5>
+            <p class="text-brand">Python</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla
+                dignissimos
+                fugit sequi delectus molestias alias!</p>
+        </div>
+        <div class="courseCards col">
+            <img src="pictures/jamesBond.png" alt="">
+            <h5>James Bond</h5>
+            <p class="text-brand">Python & JavaScript</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam ea ducimus aut nulla
+                dignissimos
+                fugit sequi delectus molestias alias!</p>
+        </div>
+        </div>
+    </section>
     <!--//TESTIMONIAL-SECTION-->
 
     <!--FOOTER-SECTION-->
+    <footer class="section1">
+        <p>Author: Ngomso Gaya</p>
+        <p><a href="mailto:ngomso@gmail.com">ngomso@gmail.com</a></p>
+    </footer>
     <!--FOOTER-SECTION-->
 
 </body>
+
 </html>

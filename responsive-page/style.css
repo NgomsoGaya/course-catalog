@@ -8,8 +8,12 @@
     text-align: center;
     padding: 20px 20px;
     font-size: 15px;
+    color: white;
 }
 
+h1, h2 {
+    display: block;
+}
 
 .full-height{
     min-height: 100vh;
@@ -18,8 +22,33 @@
 
 .courseCards {
     background-color: lightgrey;
+    margin-right: 30px;
 }
 
 .section1 {
     background-color: gray;
+}
+
+.container {
+    display: grid;
+    
+}
+
+.testimonials {
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+}
+
+.courses {
+    display: flex;
+}
+
+.courses2 {
+    display: flex;
+    margin-top: 90px;
+}
+
+button{
+    width: 100%;
 }

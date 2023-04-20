@@ -14,12 +14,11 @@ let wage = 0
 var timesheetArray = timesheetString.split("-")
 console.log(timesheetArray)
 //loop over the string of hours
-for (var i=0; i<timesheetArray.length; i+= 1 ){
+for (var i=0; i<timesheetArray.length; i++ ){
   var eachNo = timesheetArray[i]
-   daysCounter += 1
-   hoursSum += timesheetArray[i]
+   daysCounter ++
+   hoursSum += parseFloat(eachNo)
 }
-console.log(hoursArray)
 //count how many indexes are present if it is between 5 and 7 keep counting else return 0
 if (daysCounter >= 5 && daysCounter <= 7){
    if (level == "1"){
