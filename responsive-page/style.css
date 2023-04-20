@@ -1,0 +1,25 @@
+.topnav {
+  background-color: gray;
+  overflow: hidden;
+}
+
+.link {
+    float: right;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 15px;
+}
+
+
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+}
+
+.courseCards {
+    background-color: lightgrey;
+}
+
+.section1 {
+    background-color: gray;
+}
