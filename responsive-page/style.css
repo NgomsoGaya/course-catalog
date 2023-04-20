@@ -22,17 +22,21 @@ h1, h2 {
 
 .courseCards {
     background-color: lightgrey;
-    margin-right: 30px;
 }
 
 .section1 {
     background-color: gray;
 }
 
-.container {
-    display: grid;
-    
+button{
+    width: 100%;
 }
+
+@media (min-width:1000px){
+.courseCards {
+        background-color: lightgrey;
+        margin-right: 30px;
+    }
 
 .testimonials {
     margin-top: 50px;
@@ -49,6 +53,27 @@ h1, h2 {
     margin-top: 90px;
 }
 
-button{
-    width: 100%;
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    
+}
+}
+
+@media (max-width: 999px){
+    .testimonials{
+        flex-direction: column;
+    }
+    .courses {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-content: center;
+    }
+    .courses2 {
+        margin-top: 50px;
+    }
 }
